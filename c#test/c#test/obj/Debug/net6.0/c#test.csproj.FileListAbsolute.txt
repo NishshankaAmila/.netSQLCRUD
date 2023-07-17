@@ -1,0 +1,15 @@
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\bin\Debug\net6.0\c#test.exe
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\bin\Debug\net6.0\c#test.deps.json
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\bin\Debug\net6.0\c#test.runtimeconfig.json
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\bin\Debug\net6.0\c#test.dll
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\bin\Debug\net6.0\c#test.pdb
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.csproj.AssemblyReference.cache
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.AssemblyInfoInputs.cache
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.AssemblyInfo.cs
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.csproj.CoreCompileInputs.cache
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.dll
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\refint\c#test.dll
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.pdb
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\c#test.genruntimeconfig.cache
+E:\PROJECTS\.netSQLCRUD\c#test\c#test\obj\Debug\net6.0\ref\c#test.dll
