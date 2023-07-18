@@ -67,7 +67,7 @@ namespace Backend.Files
 
                 SqlCommand command = new SqlCommand(query, connection);
                 
-                command.Parameters.AddWithValue("@Name", customer.CId);
+                //command.Parameters.AddWithValue("@Name", customer.CId); Id not updated
                 command.Parameters.AddWithValue("@Email", customer.CName);
                 command.Parameters.AddWithValue("@Mobile", customer.Mobile);
 
@@ -75,6 +75,19 @@ namespace Backend.Files
                 connection.Open();
                 command.ExecuteNonQuery();
 
+            }
+        }
+
+
+        public void deleteCustomer (Customer customer)
+        {
+            using(SqlConnection connection = new SqlConnection(StringConnection))
+            {
+                string query = "DELETE FROM Customers WHERE CId = @CId ";
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                command.Parameters.AddWithValue("@CID",customer.CId);
             }
         }
 
