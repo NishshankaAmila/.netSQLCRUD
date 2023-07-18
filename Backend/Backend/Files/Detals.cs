@@ -5,7 +5,7 @@ namespace Backend.Files
 
     public class Customer
     {
-        public int Cid { get; set; }
+        public int CId { get; set; }
         public string? CName { get; set; }
         public string? Mobile { get; set; }
 
