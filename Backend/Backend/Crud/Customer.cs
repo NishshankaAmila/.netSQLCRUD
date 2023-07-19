@@ -17,7 +17,7 @@ namespace Backend.Files
 
             using (SqlConnection connection = new SqlConnection(StringConnection))
             {
-                string query = "INSERT INTO Customers (CId, CName,Mobile) VALUES (@CId, @CName,@Mobile)";
+                string query = "INSERT INTO Customer (CId, CName,Mobile) VALUES (@CId, @CName,@Mobile)";
                 SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@Name", customer.CId);
                 command.Parameters.AddWithValue("@Email", customer.CName);
@@ -88,6 +88,10 @@ namespace Backend.Files
                 SqlCommand command = new SqlCommand(query, connection);
 
                 command.Parameters.AddWithValue("@CID",customer.CId);
+
+
+                connection.Open();
+                command.ExecuteNonQuery();
             }
         }
 
